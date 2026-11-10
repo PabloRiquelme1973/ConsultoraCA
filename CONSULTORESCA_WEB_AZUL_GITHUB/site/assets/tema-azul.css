@@ -1,0 +1,46 @@
+
+:root{--ink:#092e63;--ink-2:#1b579b;--muted:#617895;--cream:#f5f9ff;--paper:#fff;--lime:#0876c8;--mint:#e4f2ff;--line:#d9e7f7;--dark:#082858;--dark-2:#0f4d93;--shadow:0 18px 50px rgba(11,55,116,.10)}
+body{background:#f7faff;color:#0a2f68}
+.topline{background:#092e63}.nav-wrap{background:rgba(255,255,255,.92);border-bottom:1px solid #d9e7f7}
+.brand-mark{width:58px;height:58px}.brand-word strong{color:#092e63}.brand-word span{color:#5277a2}
+.nav-links a:not(.btn):hover{color:#007ad1}.nav-cta,.btn-lime{background:linear-gradient(115deg,#0b438b,#0e78c9);border-color:#0b438b;color:white}
+.btn-lime:hover,.nav-cta:hover{background:linear-gradient(115deg,#07316e,#056bb9)}
+.btn-ghost{border-color:#7eaadd;color:#0a346b;background:rgba(255,255,255,.66)}.btn-ghost:hover{background:#eaf5ff}
+.hero-blue{position:relative;isolation:isolate;min-height:700px;overflow:hidden;padding:0;background:linear-gradient(114deg,#fafdff 0%,#ebf5ff 47%,#cce9ff 100%)}
+.hero-blue::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 78% 13%,rgba(42,146,232,.18),transparent 43%),linear-gradient(145deg,rgba(255,255,255,.86),rgba(217,236,255,.25) 60%);pointer-events:none;z-index:0}
+.hero-blue::after{content:'';position:absolute;z-index:1;inset:auto -18% -21% -5%;height:190px;transform:rotate(-2deg);background:linear-gradient(100deg,#075aa8,#24a9ee 65%,#a2d9ff);filter:blur(1px);border-radius:50% 50% 0 0}
+.hero-blue .hero-main{min-height:700px;display:flex;align-items:flex-start;position:relative;z-index:4;padding-top:122px;padding-bottom:215px}
+.hero-blue .hero-copy{max-width:665px}.hero-blue h1{font-size:clamp(48px,4.7vw,76px);letter-spacing:-.07em;line-height:1.13;color:#092b61;margin:22px 0 22px}
+.hero-blue .lead{color:#284a76;font-size:clamp(16px,1.45vw,20px);max-width:600px;line-height:1.65;margin-bottom:28px}
+.hero-blue .eyebrow{color:#1a679f;font-weight:800}.hero-blue .eyebrow:before{background:#2aa9ef;box-shadow:0 0 0 5px rgba(41,154,235,.15)}
+.hero-blue .btn{min-height:53px;border-radius:50px;padding:16px 23px;font-size:14px;box-shadow:0 12px 26px rgba(10,78,151,.11)}.hero-blue .btn-ghost{box-shadow:none}
+.hero-photo{position:absolute;inset:auto 0 0 0;height:390px;z-index:1;background:linear-gradient(to top,rgba(1,30,85,.13),rgba(239,249,255,.12) 72%,#ecf6ff 100%),url('costa-azul.webp') center 52%/cover no-repeat;mask-image:linear-gradient(to bottom,transparent 0%,black 40%,black 100%)}
+.hero-shapes{position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(158deg,rgba(255,255,255,.66),transparent 42%)}
+.orb{position:absolute;border-radius:50%;border:1px solid rgba(38,139,221,.2)}.orb-one{width:830px;height:830px;right:-480px;top:-540px}.orb-two{width:660px;height:660px;right:-390px;top:-335px}
+.hero-graph{position:absolute;right:1%;bottom:140px;width:min(44%,680px);z-index:3;opacity:.85;filter:drop-shadow(0 0 11px rgba(1,149,231,.7));animation:graphFloat 12s ease-in-out infinite}
+.hero-graph svg{width:100%;height:auto}.hero-curve{position:absolute;inset:auto 0 0;height:14px;background:#ffffff;z-index:5}
+.feature-rail{position:relative;z-index:7;margin-top:-50px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.feature-card{border:1px solid #e0ecfa;box-shadow:0 16px 40px rgba(11,62,125,.10);background:linear-gradient(145deg,#f9fcff,#e6f3ff);border-radius:22px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:200px;padding:22px 16px;text-align:center;transition:transform .3s,box-shadow .3s}
+.feature-card:hover{transform:translateY(-6px);box-shadow:0 18px 46px rgba(11,69,138,.16)}
+.feature-icon{display:grid;place-items:center;width:74px;height:74px;border-radius:50%;background:linear-gradient(145deg,#e4f4ff,#c6e5fb);margin-bottom:13px;color:#094381}.feature-icon svg{width:44px;height:44px}
+.feature-card strong{font-size:18px;line-height:1.22;color:#0a306a;font-family:Manrope,system-ui,sans-serif;letter-spacing:-.045em}
+.commitment{padding:90px 0 116px;position:relative;overflow:hidden;background:#fff}
+.commitment:before{content:'';position:absolute;inset:auto -15% -190px;background:linear-gradient(90deg,#073c87,#147ccb 48%,#74c6fc 90%);height:240px;border-radius:50% 50% 0 0;transform:rotate(-3deg)}
+.commitment-inner{max-width:930px;text-align:center;position:relative;z-index:1}.commitment h2{color:#0b316c;font-size:clamp(34px,4vw,54px)}.commitment p{font-size:17px;color:#496687;line-height:1.65;max-width:730px;margin:24px auto 28px}.commitment .btn{border-radius:100px;font-size:14px}
+.section{padding:100px 0}.section-kicker{color:#147dc7}.service{border-color:#e0ebf7}.service-icon,.dashboard-icon{background:#e7f4ff;color:#0c67b0}.service:hover{border-color:#80b9ec}.service p{color:#597391}.belief{background:linear-gradient(130deg,#e7f3ff,#d7ebff)}.belief .quote span{color:#126cac}.belief aside p{color:#466b96}
+.dashboard-wrap{background:linear-gradient(145deg,#072e66,#0755a6 85%)}.dashboard-head p{color:#c4dfff}.dashboard-head h2 span{color:#64ccff}.dashboard-shell{background:#f7fbff}
+.bar-fill,.score-meter span{background:linear-gradient(90deg,#0d67b6,#59bff7)!important}.dashboard-foot{color:#ceeaff}.download-btn{color:#116fb5}
+.audience{background:#eff7ff;border-color:#d8e9f9}.contact-card{background:linear-gradient(135deg,#eaf5ff,#dceeff)}.contact-form{box-shadow:0 15px 45px rgba(6,57,128,.09)}
+.footer{background:#072754}.footer-col h3{color:#a9dfff}.footer-col a,.footer-col p{color:#c3d7eb}.footer-bottom{border-color:#345789;color:#aac2df}.footer-brand p{color:#b3cee8}
+.digital-section{background:#f4f9ff}.digital-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.digital-card{background:#fff;border:1px solid #d7e8f7;border-radius:22px;padding:31px;box-shadow:0 12px 30px rgba(7,49,117,.055)}.digital-number{color:#1687d4;font-weight:800;font-size:12px;letter-spacing:.13em}.digital-card h3{font-size:22px;margin:24px 0 10px;color:#0b336f}.digital-card p{font-size:14px;line-height:1.7;color:#58708e;min-height:78px}.digital-card a{color:#116cb7;font-weight:800;font-size:13px}.digital-note{font-size:12px;color:#627e9f;margin-top:19px}
+@keyframes graphFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@media(max-width:1050px){.hero-blue .hero-main{padding-top:104px}.feature-card strong{font-size:16px}.feature-card{min-height:172px}}
+@media(max-width:800px){.hero-blue,.hero-blue .hero-main{min-height:710px}.hero-blue .hero-main{padding-top:86px;padding-bottom:260px}.hero-graph{width:59%;bottom:118px}.feature-rail{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-top:-32px}.feature-card{min-height:175px}.digital-grid{grid-template-columns:1fr}.digital-card p{min-height:0}}
+@media(max-width:580px){.topline{display:none}.nav{height:86px}.nav-links{top:86px}.brand-mark{width:60px;height:60px}.hero-blue,.hero-blue .hero-main{min-height:730px}.hero-blue .hero-main{padding-top:57px;padding-bottom:280px}.hero-blue h1{font-size:clamp(39px,10.4vw,55px);margin-top:22px;margin-bottom:22px}.hero-blue .lead{font-size:16px;max-width:480px}.hero-blue .eyebrow{font-size:10px;letter-spacing:.13em}.hero-blue .btn{font-size:13px}.hero-blue .hero-actions{align-items:stretch;max-width:400px}.hero-blue .hero-actions .btn{width:100%}.hero-photo{height:350px;background-position:57% center}.hero-graph{width:70%;right:0;bottom:110px;opacity:.65}.hero-blue::after{height:110px;bottom:-10%;}.feature-rail{gap:12px;margin-top:-25px}.feature-card{padding:18px 9px;min-height:162px;border-radius:18px}.feature-icon{width:59px;height:59px;margin-bottom:13px}.feature-icon svg{width:35px;height:35px}.feature-card strong{font-size:15px}.commitment{padding:75px 0 100px}.commitment p{font-size:15px}.section{padding:75px 0}}
+@media(prefers-reduced-motion:reduce){.hero-graph,.hero-blue::after{animation:none!important}.feature-card{transition:none}}
+/* Contraste del logotipo y la navegación sobre pie azul. */
+.footer .brand-word strong{color:#f1f8ff}
+.footer .brand-mark{background:#fff;border-radius:12px;padding:3px}
+.footer .brand-word span{color:#b6d5f4}
+@media(max-width:580px){.brand-word strong{font-size:11px}.nav-wrap .brand{gap:7px}.nav-wrap .brand-mark{width:52px;height:52px}}
