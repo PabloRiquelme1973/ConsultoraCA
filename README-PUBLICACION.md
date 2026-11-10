@@ -1,6 +1,6 @@
 # Consultoresca — versión azul tecnológica
 
-Dominio previsto: **https://consultorespatagonicos.com.ar/**.
+Dominio previsto: **https://consultorespatagonicos.com/**.
 
 ## Contenido
 - `site/index.html`: web institucional, servicios, metodología, tablero demostrativo, contacto.
@@ -14,7 +14,7 @@ Dominio previsto: **https://consultorespatagonicos.com.ar/**.
 1. En Netlify crear un sitio nuevo y conectar un **nuevo repositorio GitHub** con este proyecto. No subir ni modificar `comodoro-te-escucha`.
 2. Configurar directorio de publicación `site` (ya indicado por `netlify.toml`).
 3. Activar notificaciones de **Netlify Forms** para el formulario `consulta-consultoresca`. Comprobar recepción con una consulta de prueba.
-4. En Netlify agregar `consultorespatagonicos.com.ar` y `www.consultorespatagonicos.com.ar` como dominios.
+4. En Netlify agregar `consultorespatagonicos.com` y `www.consultorespatagonicos.com` como dominios.
 5. En DonWeb configurar los DNS **usando exclusivamente los registros que Netlify muestre para este sitio**. No alterar los registros MX/TXT de correo sin verificarlos.
 6. Comprobar HTTPS, página de gracias, formulario, navegación móvil, enlaces, y redirección de www.
 
