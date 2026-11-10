@@ -1,6 +1,6 @@
 # Carstens–Anzulovich Consultora
 
-Sitio institucional de **Carstens–Anzulovich**, preparado para el dominio [consultoresca.com.ar](https://consultoresca.com.ar).
+Sitio institucional de **Carstens–Anzulovich**, preparado para el dominio [consultorespatagonicos.com.ar](https://consultorespatagonicos.com.ar).
 
 ## Diseño elegido
 
@@ -21,7 +21,7 @@ Portada tecnológica azul: blanco, azul marino y celeste, imágenes de ciudad no
 2. En Netlify elegir `Add new project` → `Import an existing project` → GitHub → `PabloRiquelme1973/ConsultoraCA`.
 3. El directorio de publicación debe ser `site` (se encuentra en `netlify.toml`).
 4. Verificar la web en el subdominio temporal `.netlify.app` antes de conectar el dominio.
-5. Incorporar `consultoresca.com.ar` en Netlify y copiar a DonWeb únicamente los registros DNS mostrados para este sitio. **No alterar los registros MX, SPF o DKIM del correo**.
+5. Incorporar `consultorespatagonicos.com.ar` en Netlify y copiar a DonWeb únicamente los registros DNS mostrados para este sitio. **No alterar los registros MX, SPF o DKIM del correo**.
 
 ## Límites de la primera publicación
 
