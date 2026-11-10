@@ -231,7 +231,7 @@
 
     /* Proyectos: portafolio verificable, separado de demos y trabajos en desarrollo */
     .projects-section{background:linear-gradient(180deg,#f3f8ff 0%,#fff 94%)}
-    .projects-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .projects-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
     .project-card{background:#fff;border:1px solid #d9e7f7;border-radius:22px;overflow:hidden;box-shadow:0 12px 38px rgba(10,49,103,.05);display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s}
     .project-card:hover{transform:translateY(-4px);box-shadow:0 18px 42px rgba(10,49,103,.11)}
     .project-art{height:190px;display:grid;place-items:center;position:relative;overflow:hidden}
@@ -240,6 +240,7 @@
     .project-art.web{background:linear-gradient(140deg,#062858,#236fc5)}
     .project-art.survey{background:linear-gradient(140deg,#145da7,#83c8f6)}
     .project-art.dashboard{background:linear-gradient(140deg,#0b3368,#1e84c9)}
+    .project-art.community{background:linear-gradient(140deg,#0c497a,#5dc0ec)}
     .project-body{padding:26px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
     .project-status{display:inline-flex;gap:6px;align-items:center;background:#eaf4ff;color:#125995;border-radius:100px;padding:7px 11px;font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:800}
     .project-status::before{content:'';width:6px;height:6px;border-radius:50%;background:#2684d6}
@@ -364,6 +365,29 @@
 <div class="project-art dashboard" aria-hidden="true"><svg viewBox="0 0 270 155" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="18" y="14" width="234" height="127" rx="12" fill="#F8FCFF"/><rect x="18" y="14" width="54" height="127" rx="12" fill="#DAEBFC"/><rect x="32" y="34" width="25" height="6" rx="3" fill="#729FC9"/><rect x="32" y="51" width="30" height="6" rx="3" fill="#9DBFE2"/><rect x="32" y="68" width="25" height="6" rx="3" fill="#9DBFE2"/><rect x="85" y="29" width="88" height="8" rx="4" fill="#174B86"/><rect x="85" y="50" width="151" height="76" rx="8" fill="#E8F3FD"/><rect x="101" y="92" width="18" height="23" rx="4" fill="#8DC2EA"/><rect x="128" y="73" width="18" height="42" rx="4" fill="#5EA8DF"/><rect x="155" y="83" width="18" height="32" rx="4" fill="#83B9E4"/><rect x="182" y="61" width="18" height="54" rx="4" fill="#2F83CA"/><path d="M105 81 137 64 165 74 192 55 222 65" stroke="#0F5CA8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="192" cy="55" r="4" fill="#0F5CA8"/></svg></div>
 <div class="project-body"><span class="project-status">Demostración</span><h3>Tablero interactivo de indicadores</h3><p>Visualización de prioridades, servicios y segmentación territorial. Un ejemplo navegable con valores ficticios, no resultados de una encuesta real.</p><a href="#plataforma">Explorar la demostración ↗</a></div>
 </article>
+
+<!-- Portafolio: Comodoro te escucha. Inclusión sujeta a revisión posterior de los socios. -->
+<article class="project-card">
+<div class="project-art community" aria-hidden="true">
+<svg viewBox="0 0 270 155" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="22" y="16" width="226" height="123" rx="13" fill="#F7FBFF"/>
+<rect x="22" y="16" width="226" height="23" rx="12" fill="#CDE9FB"/>
+<rect x="35" y="26" width="54" height="5" rx="2.5" fill="#3C87BF"/>
+<path d="M49 114V80h21v34M70 114V61h22v53M92 114V89h19v25M111 114V72h23v42M134 114V82h21v32M155 114V55h24v59M179 114V89h18v25M197 114V77h20v37" fill="#B7D7F2"/>
+<path d="M38 114h191" stroke="#478FC9" stroke-width="3" stroke-linecap="round"/>
+<path d="M163 56c0-15 12-27 27-27s27 12 27 27c0 19-27 43-27 43s-27-24-27-43Z" fill="#166CB6"/>
+<circle cx="190" cy="56" r="11" fill="#E7F6FF"/>
+<path d="M185 56l4 4 8-9" stroke="#166CB6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</div>
+<div class="project-body">
+<span class="project-status">Proyecto de participación</span>
+<h3>Comodoro te escucha</h3>
+<p>Portal de participación ciudadana pensado para recoger opiniones de vecinos sobre servicios públicos, ambiente, movilidad y prioridades barriales, con herramientas digitales de relevamiento.</p>
+<a href="https://comodoroteescucha.com.ar/" target="_blank" rel="noopener noreferrer" aria-label="Conocer Comodoro te escucha (se abre en otra pestaña)">Conocer el portal ↗</a>
+</div>
+</article>
+<!-- Fin de caso en revisión: Comodoro te escucha -->
 </div>
 <p class="projects-note">Los casos publicados aquí corresponden al sitio actual y a desarrollos o demostraciones en evolución. No se atribuyen trabajos realizados para terceros sin su autorización.</p>
 </div>
